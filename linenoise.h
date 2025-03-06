@@ -77,6 +77,8 @@ extern "C" {
       linenoiseNextCharLen *nextCharLenFunc,
       linenoiseReadCode *readCodeFunc);
 
+#include "utf8.h"
+
 #ifdef __cplusplus
 }
 #endif
